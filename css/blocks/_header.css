@@ -1,0 +1,35 @@
+.header {
+
+}
+
+.header__container {
+  display: flex;
+}
+
+.header__top-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__bottom-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.header__details {
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #726e8d;
+  text-decoration: none;
+}

@@ -1,3 +1,9 @@
+/* global */
 @import url('_normalize.css');
+@import url('_vars.css');
 @import url('_settings.css');
+
+/* blocks */
 @import url('blocks/_btn.css');
+@import url('blocks/_header.css');
+@import url('blocks/_logo.css');
