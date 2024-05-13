@@ -6,6 +6,18 @@
   display: flex;
 }
 
+.header__top {
+  padding: 23px 0;
+  --container-width: 1330px;
+  background: var(--white);
+}
+
+.header__bottom {
+  padding: 20px 0;
+  background: var(--light-grey);
+
+}
+
 .header__top-container {
   align-items: center;
   justify-content: space-between;
@@ -19,6 +31,7 @@
 .header__details {
   display: flex;
   align-items: center;
+  gap: 47px;
 }
 
 .header__list {
@@ -32,4 +45,16 @@
   font-size: 16px;
   color: #726e8d;
   text-decoration: none;
+}
+
+.header__buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
