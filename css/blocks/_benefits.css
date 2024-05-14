@@ -1,0 +1,46 @@
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.benefits__list {
+}
+
+.benefits__item {
+  grid-column: 3 span;
+  margin-top: 40px;
+  background-position: left top;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.benefits__item--next {
+  background-image: url(../../img/next.svg);
+}
+.benefits__item--made {
+  background-image: url(../../img/made.svg);
+}
+.benefits__item--prices {
+  background-image: url(../../img/prices.svg);
+}
+.benefits__item--recycled {
+  background-image: url(../../img/recycled.svg);
+}
+
+.benefits__subtitle {
+  margin: 0;
+  margin-bottom: 8px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--dark-primary);
+}
+
+.benefits__description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--dark-primary);
+}
