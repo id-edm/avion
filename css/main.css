@@ -10,6 +10,7 @@
 @import url('blocks/_header.css');
 @import url('blocks/_logo.css');
 @import url('blocks/_nav.css');
+@import url('blocks/_centered.css');
 @import url('blocks/_title.css');
 @import url('blocks/_hero.css');
 @import url('blocks/_benefits.css');

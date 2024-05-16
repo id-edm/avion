@@ -18,6 +18,7 @@
 
 .product__title {
 	margin: 0;
+	font-family: var(--second-family);
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 140%;
