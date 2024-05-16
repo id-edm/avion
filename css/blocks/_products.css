@@ -1,0 +1,8 @@
+.products {
+	padding-top: 80px;
+	padding-bottom: 56px;
+}
+
+.products__item {
+	grid-column: 3 span;
+}

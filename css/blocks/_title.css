@@ -1,19 +1,28 @@
 .title {
-	margin: 0;
-	font-weight: 400;
-	font-family: var(--second-family);
-	color: var(--dark-primary);
+  margin: 0;
+  font-weight: 400;
+  font-family: var(--second-family);
+  color: var(--dark-primary);
+}
+
+.title--large {
+  font-size: 32px;
 }
 
 .title__small {
-	font-size: 16px;
-	line-height: 150%;
+  font-size: 24px;
+  line-height: 150%;
 }
 
 .title--center {
-	text-align: center;
+  text-align: center;
 }
 
 .title--mb-large {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.title--mb-small {
+  margin-bottom: 32px;
+
 }
