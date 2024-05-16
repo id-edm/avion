@@ -3,9 +3,6 @@
   padding-bottom: 80px;
 }
 
-.benefits__list {
-}
-
 .benefits__item {
   grid-column: 3 span;
   padding-top: 40px;
