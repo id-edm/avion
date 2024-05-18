@@ -1,6 +1,7 @@
 .benefits {
   padding-top: 60px;
   padding-bottom: 80px;
+  display: block;
 }
 
 .benefits__item {
