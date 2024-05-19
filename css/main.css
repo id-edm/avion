@@ -21,3 +21,7 @@
 @import url('blocks/_form.css');
 @import url('blocks/_about.css');
 @import url('blocks/_footer.css');
+
+
+/* about */
+@import url('blocks/_notice.css');
