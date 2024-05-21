@@ -4,6 +4,7 @@
 
 .catalog__column {
   grid-column: 3 span;
+  padding-top: 12px;
 }
 
 .catalog__wrapper {
