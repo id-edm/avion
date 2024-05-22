@@ -10,26 +10,6 @@
 </head>
 
 <body class="page__body">
-  <div class="notice">
-    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="16" height="16" transform="translate(0 0.5)" fill="white" style="mix-blend-mode:multiply" />
-      <path d="M8 8.5H2V9.5H8V8.5Z" fill="white" />
-      <path d="M6 6H1V7H6V6Z" fill="white" />
-      <path
-        d="M14.9594 8.8032L13.4594 5.3032C13.421 5.21319 13.357 5.13646 13.2753 5.08256C13.1936 5.02865 13.0979 4.99994 13 5H11.5V4C11.5 3.86739 11.4473 3.74021 11.3536 3.64645C11.2598 3.55268 11.1326 3.5 11 3.5H3V4.5H10.5V10.7781C10.2722 10.9104 10.0728 11.0865 9.91339 11.2962C9.75395 11.5059 9.6376 11.7451 9.57105 12H6.42895C6.30725 11.5287 6.01784 11.1179 5.61495 10.8447C5.21206 10.5715 4.72336 10.4546 4.24045 10.5159C3.75754 10.5773 3.31358 10.8126 2.99179 11.1779C2.66999 11.5431 2.49246 12.0132 2.49246 12.5C2.49246 12.9868 2.66999 13.4569 2.99179 13.8221C3.31358 14.1874 3.75754 14.4227 4.24045 14.4841C4.72336 14.5454 5.21206 14.4285 5.61495 14.1553C6.01784 13.8821 6.30725 13.4713 6.42895 13H9.57105C9.68007 13.4289 9.92892 13.8092 10.2783 14.0808C10.6276 14.3525 11.0575 14.4999 11.5 14.4999C11.9425 14.4999 12.3724 14.3525 12.7217 14.0808C13.0711 13.8092 13.3199 13.4289 13.429 13H14.5C14.6326 13 14.7598 12.9473 14.8536 12.8536C14.9473 12.7598 15 12.6326 15 12.5V9C15 8.93233 14.9862 8.86537 14.9594 8.8032ZM4.5 13.5C4.30222 13.5 4.10888 13.4414 3.94443 13.3315C3.77998 13.2216 3.65181 13.0654 3.57612 12.8827C3.50043 12.7 3.48063 12.4989 3.51921 12.3049C3.5578 12.1109 3.65304 11.9327 3.79289 11.7929C3.93275 11.653 4.11093 11.5578 4.30491 11.5192C4.49889 11.4806 4.69996 11.5004 4.88268 11.5761C5.06541 11.6518 5.22159 11.78 5.33147 11.9444C5.44135 12.1089 5.5 12.3022 5.5 12.5C5.4997 12.7651 5.39424 13.0193 5.20677 13.2068C5.0193 13.3942 4.76512 13.4997 4.5 13.5ZM11.5 6H12.6704L13.742 8.5H11.5V6ZM11.5 13.5C11.3022 13.5 11.1089 13.4414 10.9444 13.3315C10.78 13.2216 10.6518 13.0654 10.5761 12.8827C10.5004 12.7 10.4806 12.4989 10.5192 12.3049C10.5578 12.1109 10.653 11.9327 10.7929 11.7929C10.9327 11.653 11.1109 11.5578 11.3049 11.5192C11.4989 11.4806 11.7 11.5004 11.8827 11.5761C12.0654 11.6518 12.2216 11.78 12.3315 11.9444C12.4414 12.1089 12.5 12.3022 12.5 12.5C12.4997 12.7651 12.3942 13.0193 12.2068 13.2068C12.0193 13.3942 11.7651 13.4997 11.5 13.5ZM14 12H13.429C13.3188 11.5717 13.0696 11.1921 12.7206 10.9207C12.3715 10.6492 11.9422 10.5013 11.5 10.5V9.5H14V12Z"
-        fill="white" />
-    </svg>
-    <span class="notice__text">
-      Free delivery on all orders over £50 with code easter checkout
-    </span>
-    <button class="btn-reset notice__close" aria-label="Close notice">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path
-          d="M18 7.05L16.95 6L12 10.95L7.05 6L6 7.05L10.95 12L6 16.95L7.05 18L12 13.05L16.95 18L18 16.95L13.05 12L18 7.05Z"
-          fill="white" />
-      </svg>
-    </button>
-  </div>
   <header class="header">
     <div class="header__top">
       <div class="container header__container header__top-container">
@@ -113,159 +93,40 @@
     </div>
   </header>
   <main>
-    <section class="product-info">
+    <section class="cart">
+      <h1 class="visually-hidden">Cart</h1>
       <div class="container">
-        <div class="product-info__content">
-          <div class="product-info__image">
-            <img src="./img/product.jpg" srcset="./img/product_2x.jpg 2x" aria-hidden="true" width="607" height="661" alt="">
-          </div>
-          <div class="product-info__text">
-            <div class="product-info__top">
-              <h1 class="product-info__title">The Dandy Chair</h1>
-              <div class="product-info__price">£250</div>
+        <div class="cart__content">
+          <div class="cart__table">
+            <div class="card__row cart__row--heading cart-grid">
+              <div class="cart__col">Product</div>
+              <div class="cart__col cart__col--quantity">Quantity</div>
+              <div class="cart__col cart__col--total">Total</div>
             </div>
-            <div class="product-info__item">
-              <h2 class="product-info__subtitle">Product description</h2>
-              <p class="product-info__description">
-                A&nbsp;timeless design, with premium materials features as&nbsp;one of&nbsp;our most popular and iconic
-                pieces. The dandy chair is&nbsp;perfect for any stylish living space with beech legs and lambskin leather
-                upholstery.
-              </p>
-            </div>
-            <div class="product-info__item">
-              <h2 class="product-info__subtitle">Dimensions</h2>
-              <dl class="product-info__chars">
-                <div class="product-info__chars-item">
-                  <dt class="product-ifo__chars-captions">Height</dt>
-                  <dd class="product-info__chars-text">110cm</dd>
-                </div>
-                <div class="product-info__chars-item">
-                  <dt class="product-ifo__chars-captions">Width</dt>
-                  <dd class="product-info__chars-text">75cm</dd>
-                </div>
-                <div class="product-info__chars-item">
-                  <dt class="product-ifo__chars-captions">Depth</dt>
-                  <dd class="product-info__chars-text">50cm</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="product-info__item">
-              <h2 class="product-info__subtitle">Quantity</h2>
-              <div class="stepper">
-                <button class="btn-reset stepper__btn stepper__btn--minus stepper__btn--disabled" aria-label="Decrease quantity">-</button>
-                <input type="number" min="1" max="100" value="1" class="stepper__input">
-                <button class="btn-reset stepper__btn stepper__btn--plus" aria-label="Increase quantity">+</button>
+            <div class="card__row cart-grid">
+              <div class="cart__col cart__col--image">
+                <img src="./img/catr-product-1.jpg" aria-hidden="true" width="109" height="134" alt="" class="cart__image">
               </div>
-            </div>
-            <div class="product-info__btns">
-              <button class="btn btn--theme--darker">Add to cart</button>
-              <button class="btn btn--theme--white">Save to favorites</button>
-            </div>
+              <div class="cart__col cart__col--info">
+                <h2 class="cart__title">Graystone vase</h2>
+                <p class="cart__description">A&nbsp;timeless ceramic vase with a&nbsp;tri color grey glaze.</p>
+                <span class="cart__price">£85</span>
+              </div>
+              <div class="cart__col cart__col--quantity"">
+                <div class=" cart__stepper">
+                  <div class="stepper stepper--cart">
+                    <button class="btn-reset stepper__btn stepper__btn--minus stepper__btn--disabled" aria-label="Decrease quantity">-</button>
+                    <input type="number" min="1" max="100" value="1" class="stepper__input">
+                    <button class="btn-reset stepper__btn stepper__btn--plus" aria-label="Increase quantity">+</button>
+                  </div>
+                </div>
+              </div>
+              <div class="cart__col cart__col--total">
+                <span class="cart__total">£85</span>
+              </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="products">
-      <div class="container">
-        <h2 class="title products__title title--large title--mb-small">You might also love these</h2>
-        <ul class="list-reset products__list grid">
-          <li class="products__item products__item--big">
-            <article class="product">
-              <div class="product__top">
-                <img src="./img/product-5.jpg" srcset="./img/product-5_2x.jpg 2x" aria-hidden="true" width="630"
-                  height="375" loading="lazy" alt="" class="product__image">
-              </div>
-              <div class="product__content">
-                <h3 class="product__title">
-                  <a href="" class="product__link">The Poplar suede sofa</a>
-                </h3>
-                <span class="product__price">£980</span>
-              </div>
-            </article>
-          </li>
-          <li class="products__item">
-            <article class="product">
-              <div class="product__top">
-                <img src="./img/product-1.jpg" srcset="./img/product-1_2x.jpg 2x" aria-hidden="true" width="305"
-                  height="375" loading="lazy" alt="" class="product__image">
-              </div>
-              <div class="product__content">
-                <h3 class="product__title">
-                  <a href="" class="product__link">The Dandy chair</a>
-                </h3>
-                <span class="product__price">£250</span>
-              </div>
-            </article>
-          </li>
-          <li class="products__item">
-            <article class="product">
-              <div class="product__top">
-                <img src="./img/product-6.jpg" srcset="./img/product-6_2x.jpg 2x" aria-hidden="true" width="305"
-                  height="375" loading="lazy" alt="" class="product__image">
-              </div>
-              <div class="product__content">
-                <h3 class="product__title">
-                  <a href="" class="product__link">The Dandy chair</a>
-                </h3>
-                <span class="product__price">£250</span>
-              </div>
-            </article>
-          </li>
-        </ul>
-        <div class="centered">
-          <a href="#" class="btn products__btn btn--theme--light">View collection</a>
-        </div>
-      </div>
-    </section>
-    <sections class="benefits benefits--about">
-      <div class="container">
-        <h2 class="title title--small title--center title--mb-large">
-          What makes our brand different
-        </h2>
-        <ul class="list-reset benefits__list grid">
-          <li class="benefits__item benefits__item--next">
-            <h3 class="benefits__subtitle">Next day as standard</h3>
-            <p class="benefits__description">
-              Order before 3pm and get your order the next day
-              as&nbsp;standard
-            </p>
-          </li>
-          <li class="benefits__item benefits__item--made">
-            <h3 class="benefits__subtitle">Made by true artisans</h3>
-            <p class="benefits__description">
-              Handmade crafted goods made with real passion and craftmanship
-            </p>
-          </li>
-          <li class="benefits__item benefits__item--prices">
-            <h3 class="benefits__subtitle">Unbeatable prices</h3>
-            <p class="benefits__description">
-              For our materials and quality you won&rsquo;t find better prices
-              anywhere
-            </p>
-          </li>
-          <li class="benefits__item benefits__item--recycled">
-            <h3 class="benefits__subtitle">Recycled packaging</h3>
-            <p class="benefits__description">
-              We&nbsp;use 100% recycled packaging to&nbsp;ensure our footprint
-              is&nbsp;manageable
-            </p>
-          </li>
-        </ul>
-      </div>
-    </sections>
-    <section class="newsletter">
-      <div class="container">
-        <div class="newsletter__content">
-          <h2 class="title newslett__title title--large--xl title--mb-small-xs">Join the club and get the benefits</h2>
-          <p class="newsletter__description">
-            Sign up&nbsp;for our newsletter and receive exclusive offers on&nbsp;new ranges, sales, pop up&nbsp;stores
-            and more
-          </p>
-          <form class="form newsletter__form" action="#" method="POST">
-            <input type="email" name="email" class="form__input" required placeholder="your@email.com">
-            <button class="btn btn--theme--darker form__btn" type="submit">Sing up</button>
-          </form>
-        </div>
       </div>
     </section>
   </main>
