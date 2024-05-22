@@ -1,5 +1,6 @@
 .product-info {
   padding: 50px 0;
+  background: var(--light-grey);
 }
 
 .product-info__content {
@@ -93,4 +94,9 @@
   font-weight: 400;
   font-size: 14px;
   color: var(--dark-primary);
+}
+
+.product-info__btns {
+  display: flex;
+  gap: 16px;
 }

@@ -152,11 +152,15 @@
             <div class="product-info__item">
               <h2 class="product-info__subtitle">Quantity</h2>
               <div class="stepper">
-                <button class="btn-reset stepper-btn stepper__btn--minus" aria-label="Decrease quantity">-</button>
-                <input type="number" class="stepper__input">
-                <button class="btn-reset stepper-btn stepper__btn--plus" aria-label="Increase quantity">+</button>
+                <button class="btn-reset stepper__btn stepper__btn--minus" aria-label="Decrease quantity">-</button>
+                <input type="number" min="1" value="1" class="stepper__input">
+                <button class="btn-reset stepper__btn stepper__btn--plus" aria-label="Increase quantity">+</button>
               </div>
       
+            </div>
+            <div class="product-info__btns">
+              <button class="btn btn--theme--darker">Add to cart</button>
+              <button class="btn btn--theme--white">Save to favorites</button>
             </div>
           </div>
         </div>
