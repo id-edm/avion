@@ -14,8 +14,13 @@
   padding: 12px 16px;
   font-weight: 400;
   font-size: 16px;
-  /* color: var(--border-grey); */
   color: var(--dark-primary);
+  user-select: none;
+}
+
+.stepper__btn--disabled {
+  color: var(--border-grey);
+  pointer-events: none;
 }
 
 .stepper__input {
