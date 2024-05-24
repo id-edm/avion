@@ -20,14 +20,8 @@ if (stepperEls) {
     let count = Number(stepperInputEl.value);
 
     const updateStepperButtons = () => {
-      stepperBtnMinusEl.classList.toggle(
-        "stepper__btn--disabled",
-        count <= stepperMin
-      );
-      stepperBtnPlusEl.classList.toggle(
-        "stepper__btn--disabled",
-        count >= stepperMax
-      );
+      stepperBtnMinusEl.disabled = count <= stepperMin;
+      stepperBtnPlusEl.disabled = count >= stepperMax;
     };
 
     stepperInputEl.addEventListener("change", () => {

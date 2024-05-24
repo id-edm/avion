@@ -16,9 +16,10 @@
   font-size: 16px;
   color: var(--dark-primary);
   user-select: none;
+  transition: var(--main-trs);
 }
 
-.stepper__btn--disabled {
+.stepper__btn:disabled {
   color: var(--border-grey);
   pointer-events: none;
 }
@@ -32,8 +33,37 @@
   text-align: center;
   color: var(--dark-primary);
   background-color: inherit;
+  transition: var(--main-trs);
 }
 
 .stepper--cart {
   background: var(--light-grey);
+}
+
+.stepper__btn:focus {
+  outline: none;
+}
+
+.stepper__btn:focus-visible {
+	outline: 2px dashed var(--dark-primary);
+  outline-offset: var(--outline-offset);
+}
+
+@media (any-hover: hover) {
+  .stepper__input:hover {
+    color: var(--primary);
+  }
+}
+
+.stepper__input:active {
+  color: var(--border-grey);
+}
+
+.stepper__input:focus {
+	outline: none;
+}
+
+.stepper__input:focus-visible {
+	outline: 2px dashed var(--primary);
+	outline-offset: var(--outline-offset);
 }
