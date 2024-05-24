@@ -1,5 +1,91 @@
 @media(max-width: 1280px) {
-    .product-info__image img {
-        width: 500px;
-    }
+  .product-info__image img {
+    width: 500px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .header__bottom {
+    display: none;
+  }
+
+  .hero__content {
+    flex-direction: column;
+  }
+
+  .hero__image {
+    display: none;
+  }
+
+  .benefits__list {
+    row-gap: var(--gap);
+  }
+
+  .benefits__item {
+    grid-column: 6 span;
+  }
+
+  .products__item {
+    grid-column: 6 span;
+  }
+
+  .product__top {
+    width: 100%;
+  }
+
+  .product__image {
+    width: 100%;
+  }
+
+  .products__list {
+    row-gap: var(--gap);
+  }
+
+  .footer__column {
+    grid-column: 6 span;
+  }
+
+  .footer__top {
+    row-gap: var(--gap);
+  }
+
+  .footer__form {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .catalog__products {
+    --elem: 2;
+  }
+
+  .product-info__content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .product-info__text {
+    padding-top: 0;
+  }
+
+  .product-info__image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .product-info__image img {
+    width: 607px;
+  }
+
+  .cart__content {
+    padding: 35px;
+  }
+
+  .card__row.cart__row--heading .cart__col--quantity {
+    padding-left: 30px;
+  }
+
+  .cart__col--quantity {
+    padding-left: 0;
+  }
 }
