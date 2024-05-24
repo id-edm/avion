@@ -1,0 +1,5 @@
+@media(max-width: 1280px) {
+    .product-info__image img {
+        width: 500px;
+    }
+}
