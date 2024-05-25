@@ -1,5 +1,26 @@
 const noticeEl = document.querySelector(".notice");
 const stepperEls = document.querySelectorAll(".stepper");
+const burgerEl = document.querySelector(".burger");
+
+if(burgerEl) {
+  const body = document.body;
+  const menuEl = document.querySelector(".header__bottom");
+    burgerEl.addEventListener("click", () => {
+    burgerEl.classList.toggle("burger--active");
+    menuEl.classList.toggle("header__bottom--active");
+    body.classList.toggle("stop--scroll");
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".burger, .header__bottom")) {
+      if (burgerEl.classList.contains("burger--active")) {
+        burgerEl.classList.remove("burger--active");
+        menuEl.classList.remove("header__bottom--active");
+        body.classList.remove("stop--scroll");
+      }
+    }
+  });
+}
 
 if (noticeEl) {
   const noticeCloseEl = noticeEl.querySelector(".notice__close");

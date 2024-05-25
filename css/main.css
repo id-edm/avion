@@ -5,6 +5,7 @@
 @import url('_settings.css');
 
 /* blocks */
+@import url('blocks/_burger.css');
 @import url('blocks/_btn.css');
 @import url('blocks/_grid.css');
 @import url('blocks/_social.css');
@@ -41,5 +42,7 @@
 /* cart */
 @import url('blocks/_cart.css');
 
-/* media*/
+/* media query*/
 @import url('blocks/_media.css');
+
+
