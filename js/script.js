@@ -2,6 +2,18 @@ const noticeEl = document.querySelector(".notice");
 const stepperEls = document.querySelectorAll(".stepper");
 const burgerEl = document.querySelector(".burger");
 
+new TransferElements(
+  {
+    sourceElement: document.querySelector(".header__list"),
+    breakpoints: {
+      767.98: {
+        targetElement: document.querySelector('.header__bottom'),
+        targetPosition: 1
+      }
+    }
+  }
+);
+
 if(burgerEl) {
   const body = document.body;
   const menuEl = document.querySelector(".header__bottom");
