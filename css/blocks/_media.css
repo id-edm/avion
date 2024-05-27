@@ -142,11 +142,16 @@
     display: block;
   }
 
+  .about {
+    display: block;
+  }
+
   footer {
     display: none;
   }
 
   :root {
+    --container-offset: 24px;
     --gap: 16px;
   }
 
@@ -301,7 +306,26 @@
 
   .form__btn {
     width: auto;
-    padding: 16px 31px;
+    padding: 16px 22px;
+  }
+
+  .about__content {
+    flex-direction: column;
+  }
+
+  .about__info {
+    padding: 48px 24px;
+    padding-bottom: 38px;
+    width: 100%;
+  }
+
+  .about__image {
+    width: 100%;
+    height: 358px;
+  }
+
+  .about__btn {
+    margin-top: 64px;
   }
 
 }
