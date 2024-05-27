@@ -138,6 +138,10 @@
     display: block;
   }
 
+  .newsletter {
+    display: block;
+  }
+
   footer {
     display: none;
   }
@@ -185,7 +189,7 @@
 
   .benefits {
     padding-top: 48px;
-    padding-bottom:35px ;
+    padding-bottom: 35px;
   }
 
   .benefits .container {
@@ -229,6 +233,7 @@
 
   .products {
     padding-top: 48px;
+    padding-bottom: 48px;
   }
 
   .products .container {
@@ -250,5 +255,53 @@
   .product__image {
     height: 200px;
   }
-  
+
+  .products__list--mobile-slider {
+    display: flex;
+    width: calc(100% + var(--container-offset));
+    overflow-x: auto;
+  }
+
+  .products__list--mobile-slider .products__item {
+    width: 200px;
+    flex-shrink: 0;
+  }
+
+  .newsletter {
+    padding: 0;
+    background-color: var(--white);
+  }
+
+  .newsletter__content {
+    align-items: flex-start;
+    padding: 48px 9px;
+  }
+
+  .title--large--xl {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .newslett__title {
+    max-width: none;
+  }
+
+  .newsletter__description {
+    margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+  }
+
+  .form__input {
+    width: 224px;
+  }
+
+  .form__btn {
+    width: auto;
+    padding: 16px 31px;
+  }
+
 }
