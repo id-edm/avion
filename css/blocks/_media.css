@@ -122,34 +122,7 @@
 }
 
 @media(max-width: 767.98px) {
-  section {
-    display: none;
-  }
-
-  .hero {
-    display: block;
-  }
-
-  .benefits {
-    display: block;
-  }
-
-  .products {
-    display: block;
-  }
-
-  .newsletter {
-    display: block;
-  }
-
-  .about {
-    display: block;
-  }
-
-  footer {
-    display: none;
-  }
-
+ 
   :root {
     --container-offset: 24px;
     --gap: 16px;
@@ -326,6 +299,37 @@
 
   .about__btn {
     margin-top: 64px;
+  }
+
+  .footer__column {
+    grid-column: 2 span;
+  }
+
+  .footer__column--big {
+    grid-column: 4 span;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer__top {
+    row-gap: 40px;
+    padding-bottom: 12px;
+  }
+
+  .footer__form {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+
+  .footer__bottom {
+    justify-content: center;
   }
 
 }
