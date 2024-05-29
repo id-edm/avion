@@ -374,4 +374,28 @@
     height: 259px
   }
 
+  .about--reverse .about__content {
+    flex-direction: column-reverse;
+  }
+
+  .about__info {
+    padding: 32px 0;
+  }
+
+  .about--reverse .about__info {
+    padding: 32px 0;
+    padding-bottom: 62px;
+  }
+
+  .about__btn {
+    margin-top: 48px;
+  }
+
+  .benefits--about .benefits__item {
+    padding: 24px;
+    padding-top: 72px;
+    padding-bottom: 36px;
+    background-position: 24px 36px;
+  }
+
 }
