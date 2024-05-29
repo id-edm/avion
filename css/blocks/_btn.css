@@ -32,6 +32,14 @@
   background: var(--white);
 }
 
+.btn--with-icon {
+  gap: 12px;
+}
+
+.btn--with-icon svg {
+  transition: transform 0.3s ease;
+}
+
 .btn:focus {
   outline: none;
 }

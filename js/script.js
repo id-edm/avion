@@ -1,18 +1,27 @@
 const noticeEl = document.querySelector(".notice");
 const stepperEls = document.querySelectorAll(".stepper");
 const burgerEl = document.querySelector(".burger");
+const headerListEl = document.querySelector(".header__list")
+const filtersBtnEl = document.querySelector(".catalog__mobile-bnt")
 
-new TransferElements(
-  {
-    sourceElement: document.querySelector(".header__list"),
+if (headerListEl)
+  new TransferElements({
+    sourceElement: headerListEl,
     breakpoints: {
       767.98: {
-        targetElement: document.querySelector('.header__bottom'),
-        targetPosition: 1
-      }
-    }
-  }
-);
+        targetElement: document.querySelector(".header__bottom"),
+        targetPosition: 1,
+      },
+    },
+  });
+
+if (filtersBtnEl) {
+  const filtersEl = document.querySelector(".filters");
+  filtersBtnEl.addEventListener("click", () => {
+    filtersBtnEl.classList.toggle("catalog__mobile-btn--active");
+    filtersEl.classList.toggle("filters--active");
+  });
+}
 
 if(burgerEl) {
   const body = document.body;

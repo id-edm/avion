@@ -398,4 +398,34 @@
     background-position: 24px 36px;
   }
 
+  .inner-hero__content {
+    min-height: 146px;
+    padding-bottom: 32px;
+    justify-content: center;
+  }
+
+  .catalog__column {
+    grid-column: 4 span;
+  }
+
+  .catalog__wrapper {
+    grid-column: 4 span;
+  }
+
+  .catalog__mobile-bnt {
+    display: inline-flex;
+    margin-bottom: 20px;
+  }
+  
+  .catalog__mobile-btn--active svg {
+    transform: rotate(180deg);
+  } 
+
+  .filters {
+    display: none;
+  }
+
+  .filters--active {
+    display: flex;
+  }
 }
